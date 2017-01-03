@@ -1,7 +1,26 @@
-/*Fuente de preinscripción*/
-@import 'https://fonts.googleapis.com/css?family=Caveat:400,700';
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*Fix comment area - button*/
+.comment_area .comment-reply-link {
+    display: initial !important;
+    position: relative !important;
+}
 
+/*Pet - Home*/
+@media only screen and (max-width: 980px){
+		.pet2016 {
+			display: none;
+		}
+}
+
+.pet2016{
+	background:url(http://code-fu.net.ni/wp-content/uploads/2016/12/Pet-Christmas-2016.png) no-repeat;
+	position: fixed;
+	bottom: 0px;
+	left: 186px;
+	width: 150px;
+	height: 150px;
+}
+
+/*Blocks section in home*/
 .infoblocks {
 	color: #fff;
 	text-align: justify;
@@ -50,7 +69,6 @@ a.join:hover{
 	color: #FFDB6D !important;
 }
 
-/*Bloques*/
 .blocka {
 	background: #565656;
 }
